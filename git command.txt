@@ -1,0 +1,47 @@
+git branch 查看本地分支
+git branch -a 查看本地和远程分支
+git remote -v 查看远程地址  origin (仓库别名) git@XXXX仓库地址
+
+branch：分支
+remote：远程的
+
+git fetch  拉取远程修改不合并
+
+git push 推送  把本地仓库的 commit 提交到远程
+git pull 拉取  拉取远程代码 pull = fetch + merge
+
+git merge 合并  合并分支 或者合并远程修改
+
+git add 把文件添加到暂存区或者合并冲突以后添加到暂存区
+
+git commit 把暂存区的修改提交到本地仓库
+
+git status 查看当前的文件修改状态
+
+git diff 比对修改 这个需配合参数使用
+
+git 概念
+1. 暂存区   add文件以后的一个区域，作用是不频繁commit  
+2. 本地仓库 commit集合  
+3. 远程仓库 远程commit集合 
+
+
+
+
+
+本地commit 提交到远程  git push
+
+本地拉取远程的修改  git pull
+60%
+分支操作：
+git checkout 
+git switch
+
+80%
+
+
+
+
+
+
+
